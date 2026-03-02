@@ -1,0 +1,9 @@
+{
+  "name": "Slack AI Notifications",
+  "nodes": [
+    {"name": "Webhook Trigger", "type": "n8n-nodes-base.webhook"},
+    {"name": "OpenAI Summary", "type": "n8n-nodes-base.openAi"},
+    {"name": "Slack", "type": "n8n-nodes-base.slack"}
+  ],
+  "connections": {}
+}
